@@ -1,0 +1,26 @@
+{
+  "name": "sim_two",
+  "version": "0.1.0",
+  "main": "./src/server.js",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "massive": "^4.7.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-promise-middleware": "^5.0.0",
+    "sessions": "0.0.2-7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3005"
+}
